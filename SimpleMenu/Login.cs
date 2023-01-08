@@ -9,9 +9,9 @@ namespace SimpleMenu
             Console.Title = "Login";
 
             MainMenu.writeLogo();
-
             Console.WriteLine("Welcome Back!");
             Console.ReadKey(true);
+            MainMenu.Menu();
         }
     }
 }
